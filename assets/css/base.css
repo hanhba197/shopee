@@ -1,0 +1,228 @@
+:root {
+    --white-color: #fff;
+    --black-font: #333;
+    --text-color: #333;
+    --primary-color: #f85533;
+    --background-color: rgb(245 245 245);
+    --border-color: rgb(242 242 242);
+    --mall-color:#ca0317;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.03rem;
+}
+
+body {}
+
+.main {}
+
+.header {
+    --height-header: 149px;
+    --height-navbar: 32px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-max {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primary-line {
+    display: block;
+    width: 0.2rem;
+    height: 1.6rem;
+    background-color: #f66d5c;
+}
+
+.white-line {
+    background-color: #ccc;
+    width: 1px;
+    height: 22px;
+    margin: 0 5px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spacer {
+    display: flex;
+    flex: 1;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.remove-effects {
+    cursor: default !important;
+    color: var(--white-color);
+}
+
+.hide {
+    display: none !important;
+}
+
+.hide2 {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.space-between-two-rows+.space-between-two-rows {
+    padding-top: 5px;
+}
+
+.up-arrow-button {
+    position: absolute;
+    border: 20px solid;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: var(--white-color);
+    border-radius: 2px;
+    list-style: none;
+}
+
+.btn {
+    text-decoration: none;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.btn-view-all {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 4%;
+    right: 1%;
+    color: var(--primary-color);
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes animation-up {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(1%);
+    }
+}
+
+
+.input {
+    width: 360px;
+    height: 35px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #dbdbdb;
+}
+
+.flex {
+    display: flex;
+}
+
+.pull-rigth {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.line {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+}
+
+.facebook-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/icons.png);
+    background-size: 283%;
+    background-position: 0% 61%;
+}
+
+.google-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/icons.png);
+    background-size: 609%;
+    background-position: -35% 3%;
+}
+
+.Apple-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/icons.png);
+    background-size: 398%;
+    background-position: 5% 5%;
+}
+
+.shaddow-hover:hover {
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.effects-hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+}
