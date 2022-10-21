@@ -5,7 +5,7 @@
     --primary-color: #f85533;
     --background-color: rgb(245 245 245);
     --border-color: rgb(242 242 242);
-    --mall-color:#ca0317;
+    --mall-color: #ca0317;
 }
 
 * {
@@ -24,7 +24,9 @@ html {
 
 body {}
 
-.main {}
+.main {
+    background-color: #ffffff;
+}
 
 .header {
     --height-header: 149px;
