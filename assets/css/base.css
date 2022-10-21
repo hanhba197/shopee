@@ -135,6 +135,15 @@ body {}
     color: var(--primary-color);
 }
 
+.btn-slide--left {
+    left: calc(-1 * (var(--height-btn-slide) / 2));
+}
+
+.btn-slide--right {
+    right: calc(-1 * (var(--height-btn-slide) / 2));
+}
+
+
 @keyframes animation {
     from {
         opacity: 0;

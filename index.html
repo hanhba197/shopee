@@ -253,7 +253,8 @@
                         <li class="header-search__history-items">làm sao để code nhanh hơn</li>
                         <li class="header-search__history-items">làm sao để code ít ra bug hơn</li>
                         <li class="header-search__history-items">bí kíp trở thành developer master</li>
-                        <li class="header-search__history-items">bí kíp code thâu đêm mà sáng dậy vẫn sớm và đẹp trai</li>
+                        <li class="header-search__history-items">bí kíp code thâu đêm mà sáng dậy vẫn sớm và đẹp trai
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -320,11 +321,11 @@
             <div class="container gallery">
                 <h3 class="gallery-title">Danh mục</h3>
                 <div class="gallery-wrap">
-                    <div class="btn gallery__btn-slide gallery__btn-slide--left hide js-gallery-btn-slide-left">
-                        <i class="ti-angle-left gallery__btn-slide-icon"></i>
+                    <div class="btn btn-slide btn-slide--left hide js-gallery-btn-slide-left">
+                        <i class="ti-angle-left btn-slide-icon"></i>
                     </div>
-                    <div class="btn gallery__btn-slide gallery__btn-slide--right js-gallery-btn-slide-right">
-                        <i class="ti-angle-right gallery__btn-slide-icon"></i>
+                    <div class="btn btn-slide btn-slide--right js-gallery-btn-slide-right">
+                        <i class="ti-angle-right btn-slide-icon"></i>
                     </div>
                     <div style="overflow: hidden;">
                         <div class="gallery__container js-gallery-container">
@@ -510,57 +511,89 @@
                     <p class="title-bar__title-sub title-bar__title-sub--view-all">Xem Tất Cả <i
                             class="ti-angle-right title-bar__title-sub__ti-angle-right"></i></p>
                 </div>
-                <div class="container shopee-mall__banner">
-                    <img src="./assets/img/shopeemall-banner-img1.png" alt=""
-                        class="shopee-mall__banner-img box-shadow hover">
-                    <img src="./assets/img/shopeemall-banner-img2.png" alt=""
-                        class="shopee-mall__banner-img box-shadow hover">
-                    <img src="./assets/img/shopeemall-banner-img3.png" alt=""
-                        class="shopee-mall__banner-img box-shadow hover">
-                </div>
 
                 <div class="container shopee-mall__list-product">
-                    <a style="color: var(--mall-color)!important;" class="btn btn-view-all">Xem Tất Cả <i
-                            style="font-size: 1.3rem;" class="ti-angle-right"></i></a>
-                    <div style="background-image: url(./assets/img/shopeemall-product1.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Mua 1 tặng 2</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product2.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Giảm đến 50%</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product3.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product4.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Mua là có quà</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product5.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product6.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Mua 1 tặng 1</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product7.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Mua là có quà</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product8.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Giá chỉ từ 99k</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product9.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Giảm đến 50%</p>
-                    </div>
-                    <div style="background-image: url(./assets/img/shopeemall-product10.png);"
-                        class="shopee-mall__product">
-                        <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
+                    <img class="shopee-mall__banner-img" src="./assets/img/shopeemall-banner-img1.png" alt="">
+
+                    <div class="shopee-mall__product-container">
+
+                        <div class="btn btn-slide btn-slide--left hide js-shopmall-btn-slide-left">
+                            <i class="ti-angle-left btn-slide-icon"></i>
+                        </div>
+                        <div class="btn btn-slide btn-slide--right js-shopmall-btn-slide-right">
+                            <i class="ti-angle-right btn-slide-icon"></i>
+                        </div>
+
+                        <div style="overflow: hidden; width: 760px;">
+                            <div class="shopee-mall__wrap js-shopee-mall__wrap">
+                                <!-- <a style="color: var(--mall-color)!important;" class="btn btn-view-all">Xem Tất Cả <i
+                                        style="font-size: 1.3rem;" class="ti-angle-right"></i></a> -->
+                                <div style="background-image: url(./assets/img/shopeemall-product1.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua 1 tặng 2</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product2.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Giảm đến 50%</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product3.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product4.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua là có quà</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product5.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product6.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua 1 tặng 1</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product7.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua là có quà</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product8.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Giá chỉ từ 99k</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product9.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Giảm đến 50%</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product10.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product11.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Sản phẩm mới</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product12.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua 1 tặng 1+</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product13.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Ưu đãi ngập tràn</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product14.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua là có quà</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product15.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua 1 được 3</p>
+                                </div>
+                                <div style="background-image: url(./assets/img/shopeemall-product16.png);"
+                                    class="shopee-mall__product">
+                                    <p class="shopee-mall__product-title">Mua 1 tặng 2</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2765,7 +2798,7 @@
                 </svg>
                 Chat
             </div>
-            <div class="chat-box-main js-chat-box-main hide">
+            <div class="chat-box-main js-chat-box-main">
                 <div class="chat-box-main__navbar">
                     <div class="chat-box-main__navbar-title"> Chat <span
                             style="font-size: 1.3rem; margin-left: 5px; ">(1)</span>
@@ -2791,22 +2824,24 @@
                         </svg>
                     </div>
                 </div>
-                <div class="chat-box-main__contact js-chat-box-main__contact">
-                    <img src="./assets/img/chat-box-icon.png" alt="" class="chat-box-main__contact-img">
-                </div>
-                <div class="chat-box-main__inbox">
-                    <div class="chat-box-main__inbox-content-box">
-                        <div class="chat-box-main__inbox-icon-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21"
-                                class="chat-box-main__inbox-icon">
-                                <path fill="rgb(235 77 45)"
-                                    d="M11 12.75c3.671 0 11 1.842 11 5.5V21H0v-2.75c0-3.658 7.329-5.5 11-5.5zM11 11a5.498 5.498 0 01-5.5-5.5C5.5 2.461 7.961 0 11 0s5.5 2.461 5.5 5.5S14.039 11 11 11z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="chat-box-main__inbox-username">3tknbfij3c</h3>
-                            <p class="chat-box-main__inbox-username-content">Hello!</p>
+                <div class="chatboxmain-wrap">
+                    <div class="chat-box-main__contact js-chat-box-main__contact">
+                        <img src="./assets/img/chat-box-icon.png" alt="" class="chat-box-main__contact-img">
+                    </div>
+                    <div class="chat-box-main__inbox">
+                        <div class="chat-box-main__inbox-content-box">
+                            <div class="chat-box-main__inbox-icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21"
+                                    class="chat-box-main__inbox-icon">
+                                    <path fill="rgb(235 77 45)"
+                                        d="M11 12.75c3.671 0 11 1.842 11 5.5V21H0v-2.75c0-3.658 7.329-5.5 11-5.5zM11 11a5.498 5.498 0 01-5.5-5.5C5.5 2.461 7.961 0 11 0s5.5 2.461 5.5 5.5S14.039 11 11 11z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="chat-box-main__inbox-username">3tknbfij3c</h3>
+                                <p class="chat-box-main__inbox-username-content">Hello!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2843,6 +2878,10 @@
         const btnslideleft = document.querySelector('.js-gallery-btn-slide-left')
         const btnslideright = document.querySelector('.js-gallery-btn-slide-right')
         const gallerycontainer = document.querySelector('.js-gallery-container')
+        const shopmallwrap = document.querySelector('.js-shopee-mall__wrap')
+        const shopmallbtnslideleft = document.querySelector('.js-shopmall-btn-slide-left')
+        const shopmallbtnslideright = document.querySelector('.js-shopmall-btn-slide-right')
+
 
         loginbtn.addEventListener('click', openwindowlogin)
         loginbtn2.addEventListener('click', openwindowlogin)
@@ -2859,6 +2898,8 @@
         jsbtnchatboxhide.addEventListener('click', closechatbox)
         btnslideleft.addEventListener('click', slideleft)
         btnslideright.addEventListener('click', slideright)
+        shopmallbtnslideleft.addEventListener('click',shopmallslideleft )
+        shopmallbtnslideright.addEventListener('click',shopmallslideright )
 
 
         function openwindowlogin() {
@@ -2917,7 +2958,15 @@
             chatboxshowbtn.classList.remove('hide')
 
         }
-
+        
+        function showchatbox1() {
+            chatboxmain.classList.remove('hide')
+            chatboxmain.classList.remove('hide2')
+            chatboxbtn.classList.add('hide')
+            chatboxmaincontact.classList.remove('hide')
+            chatboxmain.classList.remove('change-width')
+        }
+        
         function showchatbox2() {
             chatboxmain.classList.remove('change-width')
             chatboxmaincontact.classList.remove('hide')
@@ -2925,12 +2974,6 @@
             chatboxshowbtn.classList.add('hide')
         }
 
-        function showchatbox1() {
-            chatboxmain.classList.remove('hide')
-            chatboxmain.classList.remove('hide2')
-            chatboxbtn.classList.add('hide')
-
-        }
 
         function closechatbox() {
             chatboxmain.classList.add('hide2')
@@ -2948,6 +2991,19 @@
             gallerycontainer.classList.add('slide-left')
             btnslideleft.classList.remove('hide')
             btnslideright.classList.add('hide')
+        }
+
+        function shopmallslideleft() {
+            shopmallwrap.classList.remove('slide-left')
+            shopmallbtnslideright.classList.remove('hide')
+            shopmallbtnslideleft.classList.add('hide')
+
+        }
+
+        function shopmallslideright() {
+            shopmallwrap.classList.add('slide-left')
+            shopmallbtnslideleft.classList.remove('hide')
+            shopmallbtnslideright.classList.add('hide')
         }
 
         container1.addEventListener('click', function (event) {
